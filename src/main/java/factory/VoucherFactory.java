@@ -1,11 +1,11 @@
 package factory;
 
-import by.epam.task_1.model.Constants;
-import by.epam.task_1.model.TourType;
-import by.epam.task_1.model.TouristVoucher;
+import by.epam.task_1.bean.Constants;
+import by.epam.task_1.bean.TourType;
+import by.epam.task_1.bean.TouristVoucher;
 
-import static by.epam.task_1.model.TourType.*;
-import static by.epam.task_1.model.TransportType.*;
+import static by.epam.task_1.bean.TourType.*;
+import static by.epam.task_1.bean.TransportType.*;
 
 public class VoucherFactory {
     private static final VoucherFactory INSTANCE = new VoucherFactory();

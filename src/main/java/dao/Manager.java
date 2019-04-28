@@ -1,7 +1,7 @@
 package dao;
 
-import by.epam.task_1.model.TouristCompany;
-import by.epam.task_1.model.TouristVoucher;
+import by.epam.task_1.bean.TouristCompany;
+import by.epam.task_1.bean.TouristVoucher;
 
 public class Manager implements AdminDAO{
     private static final Manager INSTANCE = new Manager();

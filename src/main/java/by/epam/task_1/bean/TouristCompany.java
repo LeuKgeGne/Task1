@@ -17,4 +17,8 @@ public class TouristCompany {
     public void removeVoucher(TouristVoucher touristVoucher) {
         this.vouchers.remove(touristVoucher);
     }
+
+    public void returnVoucher(TouristVoucher touristVoucher) {
+        //return a voucher from list
+    }
 }
